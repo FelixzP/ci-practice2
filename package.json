@@ -4,9 +4,20 @@
   "description": "Example project for Node.js CI with GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixzP/ci-practice2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FelixzP/ci-practice2/issues"
+  },
+  "homepage": "https://github.com/FelixzP/ci-practice2#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
 }
